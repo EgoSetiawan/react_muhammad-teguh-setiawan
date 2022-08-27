@@ -1,9 +1,11 @@
 # Praktikum dari Figma
 
 Figma
+
 Main resource : https://www.figma.com/file/Tk4c9OwKIjylGkhp0qtyss/Tugas-Prototype
 
-Lakukan analisis untuk contoh kode figma 
+Lakukan analisis untuk contoh kode figma:
+
 1. button
 
 - Warna dalam satuan rgb: rgba(64, 223, 159, 1) rgba(62, 213, 152, 1)
