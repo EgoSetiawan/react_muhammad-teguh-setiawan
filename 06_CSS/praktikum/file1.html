@@ -21,7 +21,7 @@
     margin-top: 30px;
   }
 
-  .SmallBox{
+  .smallbox{
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -29,39 +29,36 @@
     text-align: center;
   }
 
-  .SmallBox:nth-of-type(odd) {
+  .smallbox:nth-of-type(odd) {
     margin-right: 100px;
   }
 
-  .BigBox{
+  .bigbox{
     text-align: center;
     margin-top: 50px;
     width: 350px;
     height: 350px;
     padding: 5px;
     border-radius: 20px;
+    background-color: green
   }
   
 
-  #Red{
+  #red{
    background-color: red
   }
 
-  #Blue{
+  #blue{
     background-color: blue
-  }
-
-  #Green{
-    background-color: green
   }
 
 </style>
 
 <body>
   <div class="container">
-    <div class="SmallBox" id="Red">Saya adalah box red berukuran 100 px</div>
-    <div class="SmallBox" id="Blue">Saya adalah box blue berukuran 100 px</div>
-    <div class="BigBox" id="Green">Saya adalah box green berukuran 300 px </div>
+    <div class="smallbox" id="red">Saya adalah box red berukuran 100 px</div>
+    <div class="smallbox" id="blue">Saya adalah box blue berukuran 100 px</div>
+    <div class="bigbox">Saya adalah box green berukuran 300 px </div>
   </div>
 </body>
 </html>
