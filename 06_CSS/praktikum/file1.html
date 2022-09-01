@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas CSS</title>
+</head>
+<style>
+  
+  @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+  body { 
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+  }
+
+  .container {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .smallbox{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .smallbox:nth-of-type(odd) {
+    margin-right: 100px;
+  }
+
+  .bigbox{
+    text-align: center;
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: green
+  }
+  
+
+  #red{
+   background-color: red
+  }
+
+  #blue{
+    background-color: blue
+  }
+
+</style>
+
+<body>
+  <div class="container">
+    <div class="smallbox" id="red">Saya adalah box red berukuran 100 px</div>
+    <div class="smallbox" id="blue">Saya adalah box blue berukuran 100 px</div>
+    <div class="bigbox">Saya adalah box green berukuran 300 px </div>
+  </div>
+</body>
+</html>
