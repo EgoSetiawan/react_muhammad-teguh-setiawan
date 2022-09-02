@@ -1,0 +1,93 @@
+.navbar-brand span {
+    color: #98d48b;
+  }
+
+.text-wrapper p,h1{
+  font-weight:lighter;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.wrapper{
+  margin-bottom: 150px;
+}
+
+.content-information {
+  padding: 0px 30px;
+}
+
+.content-information  > img{
+  width: 50px;
+}
+
+.content-information > p {
+  font-size: 1em;
+  padding-right: 10px;
+}
+
+.content-information .break{
+  text-align: center;
+  word-break: break-all;
+}
+
+.content-information > h3 {
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.content-information > a {
+  text-decoration:none;
+  color: black
+}
+
+.row {
+  margin-top: 100px !important;
+}
+
+.about-img > img{
+  width: 250px;
+}
+
+.text-about{
+  width: 600px;
+  word-break: break-all;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.font-list ul{
+  padding: 0px;
+}
+
+.font-list li{
+  margin-right: 200px;
+  line-height:2em;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:14px;
+  list-style-type:none;
+  list-style:none;
+}
+
+.font-list li:before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f054";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight:900;
+}
+
+.footer-name-company{
+  color: #98d48b;
+}
+
+.un-decor{
+  text-decoration:none;
+}
+
+.link-web {
+  color: #98d48b;
+}
