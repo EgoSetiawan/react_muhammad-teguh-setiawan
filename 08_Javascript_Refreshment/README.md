@@ -59,7 +59,7 @@ Contoh:
 const ARRAY = [1, 2, 3];
 const OBJ = { ...ARRAY };
 ```
-### JavaScript Destructuring and Spread
+### JavaScript Method
 Method merupakan sebuah fungsi yang mempermudah dengan tipe object
 1. Concat 
 2. Map 

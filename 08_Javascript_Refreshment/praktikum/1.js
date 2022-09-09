@@ -1,15 +1,15 @@
 let a = 5
 let b = 'kampus merdeka'
-const nama = 'budi'
+const NAMA = 'budi'
 let TerdafTar = true
-let LengKap = [a,b,nama,TerdafTar]
+let LengKap = [a,b,NAMA,TerdafTar]
 let TakeArray = LengKap[2]
 
 function perkenalan(){
     let asal = 'Indonesia'
     return console.log(
         'perkenalkan nama saya' +
-        nama +
+        NAMA +
         'nomor urut' + 
         a + 
         'sekarang sedang mengikuti' +
@@ -20,7 +20,7 @@ function perkenalan(){
 }
 
 if (TerdafTar === true) {
-    console.log(nama + 'terdaftar sebagai kegiatan kampus merdeka')
+    console.log(NAMA + 'terdaftar sebagai kegiatan kampus merdeka')
 }
 
 a = b
