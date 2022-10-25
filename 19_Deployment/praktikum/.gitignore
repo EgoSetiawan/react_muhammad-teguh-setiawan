@@ -8,7 +8,8 @@
 # testing
 /coverage
 
-# production
+# Local Netlify folder
+.netlify
 
 
 # misc
