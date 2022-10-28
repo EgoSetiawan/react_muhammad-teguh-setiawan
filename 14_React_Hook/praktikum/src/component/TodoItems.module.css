@@ -1,0 +1,31 @@
+.todo-items {
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding: 17px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.checkbox {
+  /* margin-right: 15px; */
+  flex-shrink: 0;
+  appearance: none;
+  width: 1em;
+  height: 1em;
+}
+
+.label {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.checkbox:checked + label {
+  text-decoration: line-through;
+}
+
+.label {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.4;
+}
