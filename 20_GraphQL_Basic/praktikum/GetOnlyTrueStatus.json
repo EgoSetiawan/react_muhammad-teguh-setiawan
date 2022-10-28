@@ -1,0 +1,11 @@
+query getsTrue{
+    kampus_merdeka_keterangan(where: {status: {_eq:true}})
+     {
+     id,
+     status,
+     pelajaran,
+     anggota_id {
+       nama
+     }
+    } 
+   }
