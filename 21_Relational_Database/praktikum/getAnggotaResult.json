@@ -1,0 +1,60 @@
+{
+  "data": {
+    "kampus_merdeka_anggota": [
+      {
+        "id": 1,
+        "nama": "Budi",
+        "anggota": [
+          {
+            "id_anggota": 1,
+            "pelajaran": "Sistem Informasi",
+            "status": true,
+            "nilai": 85
+          },
+          {
+            "id_anggota": 1,
+            "pelajaran": "React",
+            "status": true,
+            "nilai": 65
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nama": "Siti",
+        "anggota": [
+          {
+            "id_anggota": 2,
+            "pelajaran": "Sistem Informasi",
+            "status": true,
+            "nilai": 90
+          },
+          {
+            "id_anggota": 2,
+            "pelajaran": "React",
+            "status": true,
+            "nilai": 50
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nama": "Angga",
+        "anggota": [
+          {
+            "id_anggota": 3,
+            "pelajaran": "Sistem Informasi",
+            "status": true,
+            "nilai": 90
+          },
+          {
+            "id_anggota": 3,
+            "pelajaran": "React",
+            "status": true,
+            "nilai": 55
+          }
+        ]
+      }
+    ]
+  }
+}
