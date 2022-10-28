@@ -1,0 +1,16 @@
+mutation updateTrue{
+    update_kampus_merdeka_keterangan(where: {status: { _eq: false}}, 
+    _set: {status: true}){
+    returning{
+      id,
+      nilai,
+      pelajaran,
+      status,
+      anggota_id{
+        id,
+        nama
+          }
+        }  
+    }
+  }
+  
