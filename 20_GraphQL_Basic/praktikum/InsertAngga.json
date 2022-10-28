@@ -1,0 +1,34 @@
+mutation insetyAngga($objects: [kampus_merdeka_keterangan_insert_input!]!){
+    insert_kampus_merdeka_keterangan(objects: $objects){
+    returning{
+      id,
+      nilai,
+      pelajaran,
+      status,
+      anggota_id{
+        id,
+        nama
+          }
+        }  
+    }
+  }
+  
+  Query Variable 
+  
+{
+"objects": {
+    "id_anggota": 3,
+    "pelajaran": "React",
+    "nilai": 55,
+    "status": false
+    }
+}
+
+{
+"objects": {
+    "id_anggota": 3,
+    "pelajaran": "React",
+    "nilai": 55,
+    "status": false
+    }
+}
