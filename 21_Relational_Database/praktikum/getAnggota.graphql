@@ -1,0 +1,12 @@
+query getKeterangan {
+  kampus_merdeka_anggota {
+    id
+    nama
+    anggota {
+      id_anggota
+      pelajaran
+      status
+      nilai
+    }
+  }
+}
